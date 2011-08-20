@@ -6,6 +6,7 @@ $.player.schedule({
     $('<div>Run number ' + this.timesRun + '</div>').appendTo('body');
   }
 });
+```
 
 ## Schedule a job to run every minute.
 
@@ -14,6 +15,7 @@ $.player.schedule({
   run: function() { /* ... */ },
   every: 60 * 1000
 });
+```
 
 ## Schedule a job to run only three times.
 
@@ -22,3 +24,4 @@ $.player.schedule({
   run: function() { /* ... */ },
   just: 3
 });
+```
