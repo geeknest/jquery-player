@@ -25,3 +25,11 @@ $.player.schedule({
   just: 3
 });
 ```
+
+## Pause or play all jobs.
+
+```javascript
+$.player.pause();
+
+$.player.play();
+```
